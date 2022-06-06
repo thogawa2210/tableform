@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chessboard using HTML and CSS</title>
+  <style>
+    .cboard-box {
+      border: 1px solid #000;
+      width: 560px;
+      height: 560px;
+    }
+    .cboard-row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .cboard-cell {
+      width: 70px;
+      height: 70px;
+    }
+    .cboard-row:nth-child(odd) .cboard-cell:nth-child(odd) {
+      background: #fff;
+    }
+    .cboard-row:nth-child(odd) .cboard-cell:nth-child(even) {
+      background: #000;
+    }
+    .cboard-row:nth-child(even) .cboard-cell:nth-child(even) {
+      background: #fff;
+    }
+    .cboard-row:nth-child(even) .cboard-cell:nth-child(odd) {
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+<div class="cboard-box">
+  <div class="cboard-row">
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+  </div>
+  <div class="cboard-row">
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+  </div>
+  <div class="cboard-row">
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+  </div>
+  <div class="cboard-row">
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+  </div>
+  <div class="cboard-row">
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+  </div>
+  <div class="cboard-row">
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+  </div>
+  <div class="cboard-row">
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+  </div>
+  <div class="cboard-row">
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+    <div class="cboard-cell"></div>
+  </div>
+</div>
+</body>
+</html>
